@@ -12,6 +12,17 @@
   </head>
 
   <body>
+
+    <!-- Пример использования svg-спрайта -->
+
+    <!-- <div style="width: 100px; height: 100px; background-color: green;">
+        <svg class="test" width="24" height="14">
+          <use use xlink:href="#icon-menu-open"></use>
+        </svg>
+      </div> -->
+
+    <!-- svg-спрайт -->
+
     <svg style="display:none">
       <symbol viewBox="0 0 24 14" id="icon-menu-open">
         <path d="M0 1H24M0 7H24M0 13H24" stroke="#F9FBFD" stroke-width="2"/>
@@ -51,13 +62,31 @@
       </symbol>
     </svg>
 
-    <header class="page-header">
-      <!-- <div style="width: 100px; height: 100px; background-color: green;">
-        <svg class="test" width="24" height="14">
-          <use use xlink:href="#icon-menu-open"></use>
-        </svg>
-      </div> -->
+    <header class="page-header page-header--nojs">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-desktop.svg" width="70" height="38" alt="Логотип оператора круизов в Антарктику">
+      </a>
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Преимущества</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Направления</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Ближайшие круизы</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
+
     <main class="page-main"></main>
     <footer class="page-footer"></footer>
   </body>

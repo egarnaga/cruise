@@ -1,0 +1,21 @@
+.about-us img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  min-height: 650px;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .about-us img {
+    min-height: 638px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-us img {
+    min-height: 500px;
+  }
+}

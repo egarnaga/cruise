@@ -8,11 +8,6 @@
 
 @media screen and (max-width: 767px) {
 
-  .main-nav__wrapper {
-    min-height: 299px;
-    background-color: #E5E5E5;
-  }
-
   .main-nav__toggle {
     position: absolute;
     top: 9.5px;
@@ -98,13 +93,19 @@
     display: none;
   }
 
+  .main-nav--closed .main-nav__wrapper {
+    display: none;
+  }
+
   .main-nav--opened .main-nav__wrapper {
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
+    min-height: 299px;
     padding-top: 73px;
     padding-left: 14px;
+    background-color: #E5E5E5;
     z-index: 10;
   }
 

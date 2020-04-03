@@ -106,11 +106,11 @@
         </p>
       </div>
 
-      <section class="description">
+      <!-- <section class="description">
         <h2>Путешествие на край Земли</h2>
         <p>Это волшебное путешествие поможет вам познакомиться поближе с удивительным миром Антарктики. Наш круизный лайнер отвезет вас на край Земли, где вы сможете увидеть: ледяные айсберги, несколько видов пингвинов, китов, морских котиков и многое другое.</p>
         <img src="img/penguins-desktop@1x.jpg" width="560" height="301" alt="Няшные пингвины в Антарктике">
-      </section>
+      </section> -->
 
       <section class="advantages">
         <h2>Преимущества</h2>
@@ -132,39 +132,59 @@
     <!-- Подвал -->
 
     <footer class="page-footer">
-      <a class="page-footer__logo logo">
-        <img class="logo__image" src="img/logo-desktop.svg" width="70" height="38" alt="Логотип оператора круизов в Антарктику">
-      </a>
+      <div class="page-footer__wrapper">
+        <a class="page-footer__logo logo">
+          <img class="logo__image" src="img/logo-desktop.svg" width="70" height="38" alt="Логотип оператора круизов в Антарктику">
+        </a>
 
-      <div class="page-footer__nav nav">
-        <div class="nav__wrapper">
-          <ul class="nav__list navigation-list">
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#">Преимущества</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#">Направления</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#">Ближайшие круизы</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#">Контакты</a>
-            </li>
-          </ul>
+        <div class="page-footer__nav nav">
+          <div class="nav__wrapper">
+            <ul class="nav__list navigation-list">
+              <li class="navigation-list__item">
+                <a class="navigation-list__link" href="#">Преимущества</a>
+              </li>
+              <li class="navigation-list__item">
+                <a class="navigation-list__link" href="#">Направления</a>
+              </li>
+              <li class="navigation-list__item">
+                <a class="navigation-list__link" href="#">Ближайшие круизы</a>
+              </li>
+              <li class="navigation-list__item">
+                <a class="navigation-list__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+            <a class="social__link social__link--facebook" href="#">
+              <svg class="social__icon" width="11" height="20" aria-labelledby="title__facebook">
+                <title class="title__facebook">Мы в Фейсбуке</title>
+                <use xlink:href="#icon-facebook"></use>
+              </svg>
+              <span class="visually-hidden">Мы в Фейсбуке</span>
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--instagram" href="#">Мы в Инстаграме</a>
+            <a class="social__link social__link--instagram" href="#">
+              <svg class="social__icon" width="20" height="20" aria-labelledby="title__instagram">
+                <title class="title__instagram">Мы в Инстаграме</title>
+                <use xlink:href="#icon-instagram"></use>
+              </svg>
+              <span class="visually-hidden">Мы в Инстаграме</span>
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+            <a class="social__link social__link--twitter" href="#">
+              <svg class="social__icon" width="20" height="16" aria-labelledby="title__twitter">
+                <title class="title__twitter">Мы в Твиттере</title>
+                <use xlink:href="#icon-twitter"></use>
+              </svg>
+              <span class="visually-hidden">Мы в Твиттере</span>
+            </a>
           </li>
         </ul>
       </div>

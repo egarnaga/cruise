@@ -1,0 +1,23 @@
+.logo {
+  margin-right: 40px;
+  line-height: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo {
+    margin-right: 25px;
+  }
+
+  .logo__image {
+    width: 38px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    margin-right: 0;
+    margin-bottom: 30px;
+    align-self: start;
+  }
+}

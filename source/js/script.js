@@ -1,16 +1,15 @@
-let headerPage = document.querySelector('.page-header');
-let navigationMain = document.querySelector('.main-nav');
-let navigationToggle = document.querySelector('.main-nav__toggle');
+var navMain = document.querySelector('.main-nav');
+var navToggle = document.querySelector('.main-nav__toggle');
 
-headerPage.classList.remove('page-header--nojs');
-navigationMain.classList.remove('main-nav--nojs');
+navMain.classList.remove('main-nav--nojs');
 
-navigationToggle.addEventListener('click', function() {
-  if (navigationMain.classList.contains('main-nav--closed')) {
-    navigationMain.classList.remove('main-nav--closed');
-    navigationMain.classList.add('main-nav--opened');
+navToggle.addEventListener('click', function() {
+  if (navMain.classList.contains('main-nav--closed'
+    )) {
+    navMain.classList.remove('main-nav--closed');
+    navMain.classList.add('main-nav--opened');
   } else {
-    navigationMain.classList.add('main-nav--closed');
-    navigationMain.classList.remove('main-nav--opened');
+    navMain.classList.add('main-nav--closed');
+    navMain.classList.remove('main-nav--opened');
   }
 });

@@ -1,16 +1,125 @@
 .description {
-  margin-top: -142px;
-  background-color: green;
+  display: flex;
+  margin-top: -122px;
+  padding-right: 103px;
+  padding-left: 103px;
 }
 
 @media  screen and (max-width: 1023px) {
-  .description{
-    margin-top: -114px;
+  .description {
+    margin-top: -94px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 92px;
   }
 }
 
 @media  screen and (max-width: 767px) {
   .description {
-    margin-top: -135px;
+    flex-direction: column;
+    margin-top: -115px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 65px;
+  }
+}
+
+.description h2 {
+  margin: 0;
+  padding-bottom: 21px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+@media  screen and (max-width: 1023px) {
+  .description h2 {
+    padding-bottom: 16px;
+    font-size: 26px;
+    line-height: 140%;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .description h2 {
+    font-size: 24px;
+  }
+}
+
+
+.description p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@media  screen and (max-width: 1023px) {
+  .description p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+.description__wrapper-text {
+  padding-top: 178px;
+  padding-right: 40px;
+  padding-bottom: 120px;
+}
+
+@media  screen and (max-width: 1023px) {
+  .description__wrapper-text {
+    padding-right: 16px;
+    padding-top: 92px;
+    padding-bottom: 0;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .description__wrapper-text {
+    padding-top: 60px;
+    padding-right: 0;
+  }
+}
+
+@media  screen and (max-width: 1023px) {
+  .description__wrapper-text h2 {
+    padding-right: 103px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .description__wrapper-text h2 {
+    padding-right: 70px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .description__wrapper-img img {
+    flex-shrink: 1;
+    width: 100%;
+  }
+}
+
+.description__wrapper-img {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 44px;
+  line-height: 0;
+}
+
+@media  screen and (max-width: 1023px) {
+  .description__wrapper-img {
+    padding-top: 100px;
+    padding-bottom: 0;
+    padding-left: 7px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .description__wrapper-img {
+    display: flex;
+    padding-top: 31px;
+    padding-left: 0;
   }
 }

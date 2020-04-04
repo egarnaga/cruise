@@ -111,9 +111,20 @@
       </div>
 
       <section class="description">
-        <h2>Путешествие на край Земли</h2>
-        <p>Это волшебное путешествие поможет вам познакомиться поближе с удивительным миром Антарктики. Наш круизный лайнер отвезет вас на край Земли, где вы сможете увидеть: ледяные айсберги, несколько видов пингвинов, китов, морских котиков и многое другое.</p>
-        <img src="img/penguins-desktop@1x.jpg" width="560" height="301" alt="Няшные пингвины в Антарктике">
+        <div class="description__wrapper-text">
+          <h2>Путешествие на край Земли</h2>
+          <p>Это волшебное путешествие поможет вам познакомиться поближе с удивительным миром Антарктики. Наш круизный лайнер отвезет вас на край Земли, где вы сможете увидеть: ледяные айсберги, несколько видов пингвинов, китов, морских котиков и многое другое.</p>
+        </div>
+        <div class="description__wrapper-img">
+          <picture>
+            <!-- <source>
+            <source>
+            <source> -->
+            <source media="(max-width: 767px)" srcset="img/penguins-mobile@1x.jpg 1x, img/penguins-mobile@2x.jpg 2x">
+            <source media="(max-width: 1023px)" srcset="img/penguins-tablet@1x.jpg 1x, img/penguins-tablet@2x.jpg 2x">
+            <img src="img/penguins-desktop@1x.jpg" srcset="img/penguins-desktop@2x.jpg 2x" alt="Няшные пингвины в Антарктике">
+          </picture>
+        </div>
       </section>
 
       <section class="advantages">

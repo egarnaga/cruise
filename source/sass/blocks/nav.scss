@@ -29,6 +29,14 @@
   opacity: 0.5;
 }
 
+/* @media screen and (max-width: 1080px) {
+  .navigation-list__link {
+    margin-right: 23px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+} */
+
 @media screen and (max-width: 1023px) {
   .navigation-list__link {
     margin-right: 23px;

@@ -25,14 +25,14 @@
 
 @media  screen and (max-width: 1023px) {
   .site-list__item {
-    padding-top: 0px;
+    padding-top: 3px;
     padding-bottom: 0px;
+    line-height: 0;
   }
 }
 
 .site-list__link {
-  margin-right: 27px;
-  margin-left: 27px;
+  margin-right: 33px;
 
   font-weight: 500;
   color: #F9FBFD;
@@ -51,8 +51,8 @@
 
 @media screen and (max-width: 1023px) {
   .site-list__link {
-    margin-right:15px;
-    margin-left: 15px;
+    margin-right:13px;
+    margin-left: 13px;
 
     font-size: 14px;
     line-height: 17px;

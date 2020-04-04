@@ -1,21 +1,122 @@
 .about-us img {
-  position: absolute;
-  top: 0;
-  left: 0;
+  //position: absolute;
+  position: relative;
+  //top: 0;
+  //left: 0;
+  top: -115px;
   z-index: 1;
   width: 100%;
   height: auto;
   min-height: 650px;
+  background-color: #00437c;
 }
 
 @media  screen and (max-width: 1023px) {
   .about-us img {
+    top: -87px;
     min-height: 638px;
   }
 }
 
 @media  screen and (max-width: 767px) {
   .about-us img {
+    top: -108px;
     min-height: 500px;
+  }
+}
+
+
+.about-us__wrapper {
+  position: absolute;
+  top:114px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 144px;
+  padding-left: 184px;
+  z-index: 9;
+}
+
+@media  screen and (max-width: 1023px) {
+  .about-us__wrapper {
+    //min-height: 638px;
+    top: 87px;
+    padding-top: 169px;
+    padding-left: 40px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .about-us__wrapper {
+    top: 108px;
+    padding-top: 55px;
+    //padding-right: 40px;
+    padding-left: 15px;
+  }
+}
+
+.about-us__wrapper h1 {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-size: 54px;
+  line-height: 66px;
+  color: #F9FBFD;
+}
+
+@media  screen and (max-width: 1023px) {
+  .about-us__wrapper h1 {
+    padding-left: 5px;
+    font-size: 50px;
+    line-height: 61px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .about-us__wrapper h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0;
+    font-size: 36px;
+    line-height: 125%;
+  }
+}
+
+
+.about-us__wrapper p {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F9FBFD;
+}
+
+@media  screen and (max-width: 1023px) {
+  .about-us__wrapper p {
+    padding-left: 5px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .about-us__wrapper p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 140%;
   }
 }

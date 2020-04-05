@@ -599,7 +599,32 @@
       </section>
 
       <section class="contacts">
-        <h2 class="visually-hidden">Контакты</h2>
+        <div class="contacts__wrapper">
+          <h2 class="visually-hidden">Контакты</h2>
+        </div>
+        <div class="contacts__map">
+          <!-- <iframe src="" width="" height="" style="" allowfullscreen></iframe> -->
+          <picture>
+            <!-- <source>
+            <source>
+            <source> -->
+            <source media="(max-width: 767px)" srcset="img/map-mobile@1x.png 1x, img/map-mobile@2x.png 2x">
+            <source media="(max-width: 1023px)" srcset="img/map-tablet@1x.png 1x, img/map-tablet@2x.png 2x">
+            <img src="img/map-desktop@1x.png" srcset="img/map-desktop@2x.png 2x" alt="Карта проезда">
+          </picture>
+        </div>
+        <div class="contacts__wrapper-text">
+          <div class="contacts__slogan">
+            <span>У вас ещё остались вопросы или сомнения?</span>
+            <span>Приезжайте к нам в офис и мы вам все расскажем.</span>
+          </div>
+          <div class="contacts__address">
+            <span>г. Санкт Петербург, ул. Большая Конюшенная, 19/8</span>
+          </div>
+          <div class="contacts__phone">
+            <span>8-800-200-00-00</span>
+          </div>
+        </div>
       </section>
     </main>
 

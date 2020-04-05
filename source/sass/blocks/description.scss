@@ -21,7 +21,7 @@
     flex-direction: column;
     margin-top: -115px;
     padding-left: 15px;
-    padding-right: 5px;
+    padding-right: 15px;
     padding-bottom: 65px;
   }
 }
@@ -72,6 +72,12 @@
   padding-top: 178px;
   padding-right: 40px;
   padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1300px) {
+  .description__wrapper-text {
+    padding-top: 120px;
+  }
 }
 
 @media  screen and (max-width: 1023px) {
@@ -126,6 +132,7 @@
 @media  screen and (max-width: 767px) {
   .description__wrapper-img {
     display: flex;
+    justify-content: center;
     padding-top: 31px;
     padding-left: 0;
   }

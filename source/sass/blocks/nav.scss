@@ -21,6 +21,12 @@
   transition: .3s linear;
 }
 
+@media screen and (max-width: 1075px) {
+  .navigation-list__link  {
+    margin-right: 20px;
+  }
+}
+
 .navigation-list__link:hover {
   opacity: 0.8;
 }
@@ -28,14 +34,6 @@
 .navigation-list__link:active {
   opacity: 0.5;
 }
-
-/* @media screen and (max-width: 1080px) {
-  .navigation-list__link {
-    margin-right: 23px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-} */
 
 @media screen and (max-width: 1023px) {
   .navigation-list__link {

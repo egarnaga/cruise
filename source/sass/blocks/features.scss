@@ -10,6 +10,38 @@
   background-size: cover;
 }
 
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .features {
+    background-image: url("../img/landscape-2-desktop@2x.jpg");
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .features {
+    background-image: url("../img/landscape-2-tablet@1x.jpg");
+  }
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .features {
+    background-image: url("../img/landscape-2-tablet@2x.jpg");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    background-image: url("../img/landscape-2-mobile@1x.jpg");
+  }
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .features {
+    background-image: url("../img/landscape-2-mobile@2x.jpg");
+  }
+}
+
+
+
 .features__wrapper {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,97 @@
+.features {
+  min-height: 562px;
+  padding-top: 112px;
+  padding-bottom: 119px;
+
+  background-color: #E3ECF6;
+  background-image: url("../img/landscape-2-desktop@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.features__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-right: 103px;
+  padding-left: 103px;
+}
+
+.features__heading {
+  display: flex;
+  justify-content: center;
+}
+
+.features__heading h2 {
+  margin: 0;
+  padding-bottom: 48px;
+
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #011C40;
+}
+
+.features__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.list-features__item {
+  max-width: 360px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 27px;
+  background-color: #F9FBFD;
+}
+
+.list-features__item--ship {
+  margin-right: 20px;
+}
+
+.list-features__item--ticks {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.list-features__item--boat {
+  margin-left: 20px;
+}
+
+.list-features__item--ship .list-features__icon {
+  padding-top: 30px;
+  padding-bottom: 13px;
+}
+
+.list-features__item--ticks .list-features__icon {
+  padding-top: 35px;
+  padding-bottom: 19px;
+}
+
+.list-features__item--boat .list-features__icon{
+  padding-top: 35px;
+  padding-bottom: 23px;
+}
+
+
+.list-features__item h3 {
+  margin: 0;
+  padding-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #011C40;
+}
+
+.list-features__item p {
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #011C40;
+}

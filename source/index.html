@@ -23,12 +23,6 @@
     <!-- svg-спрайт -->
 
     <svg style="display:none">
-      <symbol viewBox="0 0 24 14" id="icon-menu-open">
-        <path d="M0 1H24M0 7H24M0 13H24" stroke="#F9FBFD" stroke-width="2"/>
-      </symbol>
-      <symbol viewBox="0 0 15 15" id="icon-menu-close">
-        <path d="M1 1L7.5 7.5M14 14L7.5 7.5M7.5 7.5L14 1L1 14" stroke="#011C40" stroke-width="2"/>
-      </symbol>
       <symbol viewBox="0 0 27 32" id="icon-ship">
         <path d="M4.40549 16.3962L13.2165 9.93576C13.4162 9.8063 13.6711 9.8063 13.8708 9.93576L22.7254 16.3962V8.68818C22.7739 7.6312 21.9743 6.7343 20.9396 6.68484C20.9242 6.68407 20.9089 6.68356 20.8934 6.68322H6.23749C5.20189 6.70667 4.38094 7.58319 4.4039 8.6411C4.40423 8.6568 4.40473 8.67249 4.40549 8.68818V16.3962Z" fill="#011C40"/>
         <path d="M15.7464 0H11.3845V5.34662H15.7464V0Z" fill="#011C40"/>
@@ -129,24 +123,41 @@
 
       <section class="features">
         <div class="features__wrapper">
-          <h2>Преимущества</h2>
+          <div class="features__heading">
+            <h2>Преимущества</h2>
+          </div>
           <div class="features__list-wrapper">
             <ul class="features__list list-features">
-              <li class="list-features__item">
+              <li class="list-features__item list-features__item--ship">
+                <div class="list-features__icon">
+                  <svg width="27" height="32">
+                    <use use xlink:href="#icon-ship"></use>
+                  </svg>
+                </div>
                 <h3>Небольшой круизный лайнер</h3>
                 <p>
                   Круизный лайнер, рассчитанный всего лишь на 300 гостей, поможет избежать
                   шума и очередей и даст возможность насладиться видами и природой.
                 </p>
               </li>
-              <li class="list-features__item">
+              <li class="list-features__item list-features__item--ticks">
+                <div class="list-features__icon">
+                  <svg width="38" height="21">
+                    <use use xlink:href="#icon-ticks"></use>
+                  </svg>
+                </div>
                 <h3>Система все включено</h3>
                 <p>
                   Все наши круизы работают по системе “Все Включено”. Великолепные блюда и
                   безлимитный бар доступны для вас 24 часа.
                 </p>
               </li>
-              <li class="list-features__item">
+              <li class="list-features__item list-features__item--boat">
+                <div class="list-features__icon">
+                  <svg width="42" height="15">
+                    <use use xlink:href="#icon-boat"></use>
+                  </svg>
+                </div>
                 <h3>Экскурсионные туры на Zodiac</h3>
                 <p>
                   Экскурсионные туры к берегам Антарктиды совершаются на оборудованных лодках
@@ -158,7 +169,7 @@
         </div>
       </section>
 
-      <section class="catalog">
+      <!-- <section class="catalog">
         <div class="catalog__wrapper">
           <h2>Ближайшие круизы</h2>
           <div class="catalog__list-wrapper">
@@ -168,9 +179,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-1-mobile@1x.jpg 1x, img/cruise-1-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-1-tablet@1x.jpg 1x, img/cruise-1-tablet@2x.jpg 2x">
                       <img src="img/cruise-1-desktop@1x.jpg" srcset="img/cruise-1-desktop@2x.jpg 2x" alt="Круиз Астория">
@@ -217,9 +228,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-2-mobile@1x.jpg 1x, img/cruise-2-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-2-tablet@1x.jpg 1x, img/cruise-2-tablet@2x.jpg 2x">
                       <img src="img/cruise-2-desktop@1x.jpg" srcset="img/cruise-2-desktop@2x.jpg 2x" alt="Круиз Элайн">
@@ -266,9 +277,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-3-mobile@1x.jpg 1x, img/cruise-3-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-3-tablet@1x.jpg 1x, img/cruise-3-tablet@2x.jpg 2x">
                       <img src="img/cruise-3-desktop@1x.jpg" srcset="img/cruise-3-desktop@2x.jpg 2x" alt="Круиз Атлантис">
@@ -315,9 +326,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-4-mobile@1x.jpg 1x, img/cruise-4-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-4-tablet@1x.jpg 1x, img/cruise-4-tablet@2x.jpg 2x">
                       <img src="img/cruise-4-desktop@1x.jpg" srcset="img/cruise-4-desktop@2x.jpg 2x" alt="Круиз Одиссей">
@@ -364,9 +375,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-5-mobile@1x.jpg 1x, img/cruise-5-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-5-tablet@1x.jpg 1x, img/cruise-5-tablet@2x.jpg 2x">
                       <img src="img/cruise-5-desktop@1x.jpg" srcset="img/cruise-5-desktop@2x.jpg 2x" alt="Круиз Олимпия">
@@ -413,9 +424,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-6-mobile@1x.jpg 1x, img/cruise-6-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-6-tablet@1x.jpg 1x, img/cruise-6-tablet@2x.jpg 2x">
                       <img src="img/cruise-6-desktop@1x.jpg" srcset="img/cruise-6-desktop@2x.jpg 2x" alt="Круиз Аврора">
@@ -462,9 +473,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-7-mobile@1x.jpg 1x, img/cruise-7-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-7-tablet@1x.jpg 1x, img/cruise-7-tablet@2x.jpg 2x">
                       <img src="img/cruise-7-desktop@1x.jpg" srcset="img/cruise-7-desktop@2x.jpg 2x" alt="Круиз Леонор">
@@ -511,9 +522,9 @@
                 <div class="card__side card__side--front">
                   <div class="card__img">
                     <picture>
-                      <!-- <source>
                       <source>
-                      <source> -->
+                      <source>
+                      <source>
                       <source media="(max-width: 767px)" srcset="img/cruise-8-mobile@1x.jpg 1x, img/cruise-8-mobile@2x.jpg 2x">
                       <source media="(max-width: 1023px)" srcset="img/cruise-8-tablet@1x.jpg 1x, img/cruise-8-tablet@2x.jpg 2x">
                       <img src="img/cruise-8-desktop@1x.jpg" srcset="img/cruise-8-desktop@2x.jpg 2x" alt="Круиз Минион - 1">
@@ -559,9 +570,9 @@
             </ul>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="booking">
+      <!-- <section class="booking">
         <div class="booking__wrapper">
           <div class="booking__wrapper-text">
             <div class="booking__heading">
@@ -596,20 +607,20 @@
             </form>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="contacts">
+      <!-- <section class="contacts">
         <div class="contacts__wrapper">
           <h2 class="visually-hidden">Контакты</h2>
         </div>
         <div class="contacts__map">
-          <h3 class="visually-hidden">Карта проезда</h3>
+          <h3 class="visually-hidden">Карта проезда</h3> -->
           <!-- <iframe src="" width="" height="" style="" allowfullscreen></iframe> -->
-          <picture>
+          <!-- <picture> -->
             <!-- <source>
             <source>
             <source> -->
-            <source media="(max-width: 767px)" srcset="img/map-mobile@1x.png 1x, img/map-mobile@2x.png 2x">
+            <!-- <source media="(max-width: 767px)" srcset="img/map-mobile@1x.png 1x, img/map-mobile@2x.png 2x">
             <source media="(max-width: 1023px)" srcset="img/map-tablet@1x.png 1x, img/map-tablet@2x.png 2x">
             <img src="img/map-desktop@1x.png" srcset="img/map-desktop@2x.png 2x" alt="Карта проезда">
           </picture>
@@ -628,7 +639,7 @@
             <span>8-800-200-00-00</span>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Подвал -->

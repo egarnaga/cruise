@@ -3,6 +3,8 @@
   margin-top: -122px;
   padding-right: 103px;
   padding-left: 103px;
+
+  background-color: #E5E5E5;;
 }
 
 @media  screen and (max-width: 1023px) {
@@ -26,15 +28,18 @@
 
 .description h2 {
   margin: 0;
+
   padding-bottom: 21px;
   font-weight: 600;
   font-size: 28px;
   line-height: 150%;
+  color: #011C40;
 }
 
 @media  screen and (max-width: 1023px) {
   .description h2 {
     padding-bottom: 16px;
+
     font-size: 26px;
     line-height: 140%;
   }
@@ -49,9 +54,11 @@
 
 .description p {
   margin: 0;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
+  color: #011C40;
 }
 
 @media  screen and (max-width: 1023px) {

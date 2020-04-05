@@ -47,6 +47,13 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .features {
+    padding-top: 60px;
+    padding-bottom: 36px;
+  }
+}
+
 .features__wrapper {
   display: flex;
   justify-content: center;
@@ -59,6 +66,13 @@
   .features__wrapper {
     padding-right: 45px;
     padding-left: 45px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .features__wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -83,6 +97,15 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .features__heading h2 {
+    padding-left: 14px;
+    padding-bottom: 31px;
+    font-size: 24px;
+    line-height: 140%;
+  }
+}
+
 .features__list {
   display: flex;
   margin: 0;
@@ -91,14 +114,18 @@
   list-style: none;
 }
 
-
 @media screen and (min-width: 1367px) {
   .features__list {
-    //margin: 0 auto;
     justify-content: space-around;
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .features__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .list-features__item {
   max-width: 360px;
@@ -116,6 +143,13 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .list-features__item {
+    margin-bottom: 30px;
+    padding-right: 7px;
+  }
+}
+
 .list-features__item--ship {
   margin-right: 20px;
 }
@@ -126,6 +160,11 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .list-features__item--ship {
+    margin-right: 0;
+  }
+}
 
 .list-features__item--ticks {
   margin-left: 20px;
@@ -139,6 +178,13 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .list-features__item--ticks {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .list-features__item--boat {
   margin-left: 20px;
 }
@@ -146,6 +192,12 @@
 @media  screen and (max-width: 1023px) {
   .list-features__item--boat {
     margin-left: 15px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .list-features__item--boat {
+    margin-left: 0;
   }
 }
 
@@ -216,6 +268,12 @@
 @media  screen and (max-width: 1023px) {
   .list-features__item h3 {
     line-height: 140%;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .list-features__item h3 {
+    padding-bottom: 8px;
   }
 }
 

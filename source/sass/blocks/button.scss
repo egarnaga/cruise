@@ -9,6 +9,15 @@
   cursor: pointer;
 }
 
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.5;
+}
+
+
 .button__link {
   font-weight: 600;
   font-size: 14px;

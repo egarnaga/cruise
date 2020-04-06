@@ -3,7 +3,13 @@
   width: 260px;
   height: 386px;
   line-height: 0;
+}
 
+@media  screen and (max-width: 1023px) {
+  .card__img img {
+    width: 309px;
+    height: 386px;
+  }
 }
 
 .card__main-heading h3 {
@@ -19,7 +25,19 @@
   opacity: 1;
 }
 
-.card__heading span {
+@media  screen and (max-width: 1023px) {
+  .card__main-heading h3 {
+    margin-top: -57px;
+    padding-left: 34px;
+  }
+}
+
+.card__title {
+  display: flex;
+}
+
+.card__title span {
+  margin-top: -40px;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -50,6 +68,14 @@
   max-width: 260px;
   min-height: 386px;
 }
+
+@media  screen and (max-width: 1023px) {
+  .card__side {
+    max-width: 309px;
+    min-height: 386px;
+  }
+}
+
 
 .card__side.card__side--back {
   display: flex;
@@ -82,6 +108,7 @@
   position: relative;
   z-index: 50;
   visibility: hidden;
+  //visibility: visible;
 }
 
 .card:hover .card__side--back {

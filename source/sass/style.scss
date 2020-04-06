@@ -1,20 +1,30 @@
+// Общие стили
+
 @import "normalize.scss";
 @import "fonts.scss";
 @import "visually-hidden.scss";
 @import "variables.scss";
 @import "scaffolding.scss";
 
+// Шапка
+
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/site-list.scss";
+
+// Основное содержимое
 
 @import "blocks/page-main.scss";
 @import "blocks/about-us.scss";
 @import "blocks/description.scss";
 @import "blocks/features.scss";
 @import "blocks/catalog.scss";
+@import "blocks/card.scss";
+@import "blocks/button.scss";
 @import "blocks/booking.scss";
 @import "blocks/contacts.scss";
+
+// Подвал
 
 @import "blocks/page-footer.scss";
 @import "blocks/logo.scss";

@@ -76,11 +76,10 @@
   visibility: hidden;
 }
 
-.card__side--front {
-
-
+.card:hover .card__side--back {
+  visibility: visible;
 }
 
-.card__side--front:hover+ .card__side--back {
-  visibility: visible;
+.card__text {
+  min-width: 208px;
 }

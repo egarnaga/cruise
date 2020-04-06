@@ -1,4 +1,18 @@
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 5px;
+
+  background-color: #F9FBFD;
+}
+
 .button__link {
-  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
   color: #011C40;
+
+  text-decoration: none;
 }

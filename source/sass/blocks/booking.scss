@@ -1,0 +1,98 @@
+.booking {
+  background-color: #bde0fb;
+  background-image: url("../img/landscape-3-desktop@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .booking {
+    background-image: url("../img/landscape-3-desktop@2x.jpg");
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .booking {
+    background-image: url("../img/landscape-3-tablet@1x.jpg");
+  }
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .booking {
+    background-image: url("../img/landscape-3-tablet@2x.jpg");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .booking {
+    background-image: url("../img/landscape-3-mobile@1x.jpg");
+  }
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .booking {
+    background-image: url("../img/landscape-3-mobile@2x.jpg");
+  }
+}
+
+@media  screen and (max-width: 1023px) {
+  .booking {
+    padding-top: 91px;
+    padding-bottom: 100px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .booking {
+    padding-top: 60px;
+    padding-bottom: 36px;
+  }
+}
+
+.booking__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 163px;
+  padding-right: 161px;
+}
+
+.booking__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 165px;
+  padding-right: 70px;
+}
+
+.booking__heading h2 {
+  margin: 0;
+  padding-bottom: 7px;
+
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #011C40;
+}
+
+.booking__description p {
+  margin: 0;
+  padding-right: 152px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #011C40;
+}
+
+.booking__wrapper-form {
+  padding-left: 60px;
+}
+
+.form__button button {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  display: block;
+}

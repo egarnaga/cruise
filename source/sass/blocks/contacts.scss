@@ -1,0 +1,88 @@
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 113px;
+  padding-left: 103px;
+  padding-right: 103px;
+}
+
+.contacts__wrapper-text {
+  max-width: 500px;
+  padding-top: 77px;
+}
+
+.contacts__map {
+  padding-right: 100px;
+}
+
+.contacts__map img {
+  line-height: 0;
+}
+
+.contacts__slogan {
+  padding-bottom: 30px;
+}
+
+.contacts__slogan span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #011C40;
+}
+
+.contacts__address {
+  padding-bottom: 20px;
+  padding-left: 28px;
+}
+
+.contacts__address span {
+  position: relative;
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #011C40;
+}
+
+.contacts__address span::before {
+  content: "";
+
+  position: absolute;
+  top: -5px;
+  left: -28px;
+
+  width: 18px;
+  height: 22px;
+
+  background-image: url("../img/icon-map-pin.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 18px 22px;
+  //background-color: red;
+}
+
+.contacts__phone {
+  position: relative;
+
+  padding-left: 28px
+}
+
+.contacts__phone span::before {
+  content: "";
+
+  position: absolute;
+  top: 3px;
+  left: 0;
+
+  width: 18px;
+  height: 18px;
+
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 18px 18px;
+  //background-color: red;
+}
+

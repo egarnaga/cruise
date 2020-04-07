@@ -55,6 +55,9 @@
   .booking {
     padding-top: 60px;
     padding-bottom: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
   }
 }
 
@@ -142,6 +145,13 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .booking__heading h2 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
 .booking__description p {
   margin: 0;
   padding-right: 152px;
@@ -159,7 +169,13 @@
   }
 }
 
-
+@media  screen and (max-width: 767px) {
+  .booking__description p {
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
 
 .booking__wrapper-form {
   padding-left: 60px;

@@ -9,6 +9,14 @@
   box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
 }
 
+@media  screen and (max-width: 767px) {
+  .form {
+    max-width: 290px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 .booking__form p {
   margin: 0;
   padding-bottom: 26px;
@@ -17,6 +25,12 @@
   font-size: 18px;
   line-height: 27px;
   color: #F9FBFD;
+}
+
+@media  screen and (max-width: 767px) {
+  .booking__form p {
+    line-height: 25px;
+  }
 }
 
 .form__field input {
@@ -38,6 +52,13 @@
 
   border: none;
 }
+
+@media  screen and (max-width: 767px) {
+  .form__field input {
+    max-width: 230px;
+  }
+}
+
 
 .form__field input:hover {
   opacity: 0.8;
@@ -82,9 +103,6 @@
   width: 18px;
   height: 18px;
 
-  //background-image: url("../img/box-desktop.jpg");
-  //background-repeat: no-repeat;
-  //background-position: 0 0;
   background-color: #F9FBFD;;
 }
 
@@ -139,3 +157,12 @@
 .form__button:active {
   opacity: 0.5;
 }
+
+@media  screen and (max-width: 767px) {
+  .form__button {
+    max-width: 230px;
+    padding-left: 53px;
+    padding-right: 53px;
+  }
+}
+

@@ -51,8 +51,65 @@
   position: relative;
 
   padding-right: 100px;
+
+  overflow: hidden;
 }
 
+.contacts__map iframe {
+  position: relative;
+  z-index: 2;
+  width: 560px;
+  height: 306px;
+
+  border: none;
+}
+
+@media  screen and (max-width: 1023px) {
+  .contacts__map iframe {
+    width: 324px;
+    height: 335px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .contacts__map iframe {
+    width: 290px;
+    height: 316px;
+  }
+}
+
+.contacts__map img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  margin: 0;
+}
+
+
+
+/* .map {
+  position: relative;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: relative;
+  z-index: 2;
+
+  border: none;
+}
+
+.map img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  margin: 0;
+}
+ */
 @media  screen and (max-width: 1023px) {
   .contacts__map {
     padding-right: 30px;

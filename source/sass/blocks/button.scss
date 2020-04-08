@@ -9,14 +9,14 @@
   cursor: pointer;
 }
 
-.button:hover {
+/* .button:hover {
   opacity: 0.8;
 }
 
 .button:active {
   opacity: 0.5;
 }
-
+ */
 
 .button__link {
   font-weight: 600;
@@ -25,4 +25,12 @@
   color: #011C40;
 
   text-decoration: none;
+}
+
+.button__link:hover {
+  opacity: 0.8;
+}
+
+.button__link:active {
+  opacity: 0.5;
 }

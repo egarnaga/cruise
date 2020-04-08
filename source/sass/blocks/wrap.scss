@@ -31,9 +31,11 @@
 
 @media screen and (max-width: 320px) {
   .wrap {
-    background-size: 100% 500px;
-    background-image: url("../img/landscape-1-mobile@1x.jpg");
+    //background-size: 100% 500px;
+    //background-image: url("../img/landscape-1-mobile@1x.jpg");
     //background-size: cover;
+    //background-position: center 0;
+    background-position: -175px -35px;
   }
 }
 

@@ -13,7 +13,8 @@
 
 @media  screen and (max-width: 1023px) {
   .about-us__wrapper {
-    min-height: 645px;
+    //min-height: 645px;
+    //min-height: 0px;
     padding-top: 169px;
     padding-left: 40px;
   }
@@ -22,7 +23,6 @@
 @media  screen and (max-width: 767px) {
   .about-us__wrapper {
     //min-height: 507px;
-    min-height: 507px;
     padding-top: 55px;
     //padding-right: 40px;
     padding-left: 15px;

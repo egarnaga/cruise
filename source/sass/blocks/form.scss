@@ -9,9 +9,17 @@
   box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
 }
 
+@media  screen and (max-width: 1023px) {
+  .form {
+    //min-width: 403px;
+    //width: 100%;
+  }
+}
+
 @media  screen and (max-width: 767px) {
   .form {
-    max-width: 290px;
+    //max-width: 290px;
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -53,9 +61,12 @@
   border: none;
 }
 
+
+
 @media  screen and (max-width: 767px) {
   .form__field input {
-    max-width: 230px;
+    //max-width: 230px;
+    width: 100%;
   }
 }
 
@@ -150,6 +161,8 @@
   cursor: pointer;
 }
 
+
+
 .form__button:hover {
   opacity: 0.8;
 }
@@ -160,7 +173,8 @@
 
 @media  screen and (max-width: 767px) {
   .form__button {
-    max-width: 230px;
+    //max-width: 230px;
+    width: 100%;
     padding-left: 53px;
     padding-right: 53px;
   }

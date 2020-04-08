@@ -3,6 +3,10 @@
   line-height: 0;
 }
 
+.page-header__logo-image {
+  //fill: #F9FBFD;
+}
+
 @media screen and (max-width: 1023px) {
   .logo {
     margin-right: 25px;
@@ -20,4 +24,12 @@
     margin-bottom: 30px;
     align-self: start;
   }
+}
+
+.logo-menu--closed {
+  fill: #F9FBFD;
+}
+
+.logo-menu--opened {
+  fill: #011C40;
 }

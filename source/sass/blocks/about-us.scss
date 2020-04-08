@@ -1,46 +1,19 @@
-.about-us img {
-  //position: absolute;
-  position: relative;
-  //top: 0;
-  //left: 0;
-  top: -115px;
-  z-index: 1;
-  width: 100%;
-  height: auto;
-  min-height: 650px;
-  background-color: #00437c;
-}
-
-@media  screen and (max-width: 1023px) {
-  .about-us img {
-    top: -87px;
-    min-height: 638px;
-  }
-}
-
-@media  screen and (max-width: 767px) {
-  .about-us img {
-    top: -108px;
-    min-height: 500px;
-  }
-}
-
-
 .about-us__wrapper {
-  position: absolute;
-  top:114px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+
   padding-top: 144px;
+  padding-bottom: 261px;
   padding-left: 184px;
   z-index: 9;
+
+  //background-color: green;
 }
 
 @media  screen and (max-width: 1023px) {
   .about-us__wrapper {
-    //min-height: 638px;
-    top: 87px;
+    min-height: 645px;
     padding-top: 169px;
     padding-left: 40px;
   }
@@ -48,7 +21,7 @@
 
 @media  screen and (max-width: 767px) {
   .about-us__wrapper {
-    top: 108px;
+    min-height: 507px;
     padding-top: 55px;
     //padding-right: 40px;
     padding-left: 15px;
@@ -59,7 +32,7 @@
   margin: 0;
   padding-top: 15px;
   padding-bottom: 5px;
-  padding-right: 15px;
+  padding-right: 10px;
   padding-left: 15px;
 
   font-size: 54px;

@@ -23,6 +23,11 @@
     <!-- svg-спрайт -->
 
     <svg style="display:none">
+      <symbol viewBox="0 0 70 38" id="logo">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.903517 31.125L14.6726 12.5429L18.4395 14.556L27.4026 0L32.9879 6.65881L35.0665 4.95532L43.1199 15.1755L48.8355 8.36191L64.8126 31.125L49.42 11.7689L47.0817 19.8984L49.225 26.3249L35.456 7.35558L35.3069 13.8279L43.1199 31.125L28.5064 4.33574L32.7282 18.8145L26.8181 4.72292L23.5706 14.0916L24.2198 7.97472L16.1013 30.0411L17.0753 20.75L13.6981 17.0338L0.903517 31.125Z"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M69.4414 34.0314C47.641 16.428 13.7091 40.6289 0 31.2961C15.0723 44.5215 50.3019 22.1644 69.4414 34.0314Z"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M70 35.4157C52.8956 24.5171 27.4568 39.6838 14.4189 36.1717C28.5467 43.0283 54.8482 27.8361 70 35.4157Z"></path>
+      </symbol>
       <symbol viewBox="0 0 27 32" id="icon-ship">
         <path d="M4.40549 16.3962L13.2165 9.93576C13.4162 9.8063 13.6711 9.8063 13.8708 9.93576L22.7254 16.3962V8.68818C22.7739 7.6312 21.9743 6.7343 20.9396 6.68484C20.9242 6.68407 20.9089 6.68356 20.8934 6.68322H6.23749C5.20189 6.70667 4.38094 7.58319 4.4039 8.6411C4.40423 8.6568 4.40473 8.67249 4.40549 8.68818V16.3962Z" fill="#011C40"></path>
         <path d="M15.7464 0H11.3845V5.34662H15.7464V0Z" fill="#011C40"></path>
@@ -59,7 +64,10 @@
 
     <header class="page-header">
       <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logo-desktop.svg" alt="Логотип оператора круизов в Антарктику">
+        <svg class="page-header__logo-image logo-menu--closed logo-menu" width="70" height="38" aria-label="Логотип оператора круизов в Антарктику">
+          <use xlink:href="#logo"></use>
+        </svg>
+        <span class="visually-hidden">Логотип оператора круизов в Антарктику</span>
       </a>
       <nav class="main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -644,7 +652,7 @@
           <h2 class="visually-hidden">Контакты</h2>
           <div class="contacts__map">
             <h3 class="visually-hidden">Карта проезда</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003356!2d30.320858716173465!3d59.93871916905408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1586260383308!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003356!2d30.320858716173465!3d59.93871916905408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1586260383308!5m2!1sru!2sru" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <picture>
               <source media="(max-width: 767px)" srcset="img/map-mobile@1x.png 1x, img/map-mobile@2x.png 2x">
               <source media="(max-width: 1023px)" srcset="img/map-tablet@1x.png 1x, img/map-tablet@2x.png 2x">
@@ -667,8 +675,9 @@
               <h3 class="visually-hidden">Телефон</h3>
               <span>8-800-200-00-00</span>
             </div>
+          </div>
         </div>
-      </div></section>
+      </section>
     </main>
 
     <!-- Подвал -->

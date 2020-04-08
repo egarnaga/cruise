@@ -3,12 +3,11 @@
   //background-color: #00437c;
   background-image: url("../img/landscape-1-desktop@1x.jpg");
   background-repeat: no-repeat;
-  position: center center;
   background-position: center 0;
-  background-size: 100% 650px;
+  //background-size: 100% 650px;
 
   //background-position: 50% 50%;
-  //background-size: cover;
+  background-size: cover;
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -19,8 +18,8 @@
 
 @media screen and (max-width: 1023px) {
   .wrap {
-    background-size: 100% 638px;
     background-image: url("../img/landscape-1-tablet@1x.jpg");
+    background-size: cover;
   }
 }
 
@@ -30,10 +29,11 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
   .wrap {
     background-size: 100% 500px;
     background-image: url("../img/landscape-1-mobile@1x.jpg");
+    //background-size: cover;
   }
 }
 

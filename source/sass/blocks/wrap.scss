@@ -4,9 +4,6 @@
   background-image: url("../img/landscape-1-desktop@1x.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  //background-size: 100% 650px;
-
-  //background-position: 50% 50%;
   background-size: cover;
 }
 
@@ -28,13 +25,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .wrap {
-    //background-size: 100% 500px;
-    //background-image: url("../img/landscape-1-mobile@1x.jpg");
-    //background-size: cover;
-    //background-position: center 0;
-    //background-position: -175px -35px;
+    background-image: url("../img/landscape-1-mobile@1x.jpg");
   }
 }
 

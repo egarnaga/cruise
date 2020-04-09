@@ -3,6 +3,8 @@
 }
 
 .main-nav__toggle {
+  margin: 0;
+  padding: 0;
   display: none;
 }
 
@@ -60,8 +62,8 @@
       content: "";
 
       position: absolute;
-      top: 19px;
-      right: 10px;
+      top: 20px;
+      right: 6px;
 
       width: 20px;
       height: 2px;
@@ -104,7 +106,7 @@
     width: 100%;
     min-height: 299px;
     padding-top: 73px;
-    padding-left: 14px;
+    padding-left: 15px;
     background-color: #E5E5E5;
     z-index: 10;
   }

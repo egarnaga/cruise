@@ -33,6 +33,16 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .button__link {
+    min-width: 220px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .button__link:hover {
   opacity: 0.8;
 }

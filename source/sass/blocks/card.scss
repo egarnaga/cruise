@@ -5,6 +5,12 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .card {
+    width: 270px;
+  }
+}
+
 .card__img img {
   min-width: 260px;
   min-height: 386px;
@@ -51,7 +57,7 @@
 
 @media  screen and (max-width: 767px) {
   .card__main-heading h3 {
-    margin-top: -47px;
+    margin-top: -49px;
     padding-left: 26px;
   }
 }
@@ -102,7 +108,7 @@
 
 @media  screen and (max-width: 767px) {
   .card__side {
-    max-width: 270px;
+    min-width: 270px;
   }
 }
 
@@ -157,4 +163,3 @@
   visibility: hidden;
   visibility: visible;
 } */
-

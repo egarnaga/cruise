@@ -41,7 +41,9 @@
 
 @media  screen and (max-width: 1023px) {
   .contacts__wrapper-text {
-    padding-top: 69px;
+    min-width: 354px;
+    padding-top: 67px;
+    padding-left: 30px;
   }
 }
 
@@ -211,7 +213,7 @@
 
 @media  screen and (max-width: 1023px) {
   .contacts__address span::before {
-    top: -2px;
+    top: 2px;
   }
 }
 

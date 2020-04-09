@@ -21,14 +21,20 @@
 @media screen and (max-width: 767px) {
   .logo {
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
     align-self: start;
   }
+
+  .logo__image {
+    width: 42px;
+    height: 22px;
+  }
+
 
   .logo-menu--closed {
     fill: #F9FBFD;
   }
-  
+
   .logo-menu--opened {
     fill: #011C40;
   }

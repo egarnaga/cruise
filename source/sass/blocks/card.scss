@@ -1,3 +1,4 @@
+
 .card__img img {
   min-width: 260px;
   min-height: 386px;
@@ -19,13 +20,14 @@
 
 .card__main-heading h3 {
   margin: 0;
-  margin-top: -52px;
+  margin-top: -54px;
   padding-left: 30px;
   padding-right: 30px;
 
+  font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22.5px;
+  line-height: 27px;
   color: #F9FBFD;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -54,6 +56,7 @@
 
 .card__title span {
   margin-top: -40px;
+
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -63,20 +66,19 @@
 
 .card__heading h4 {
   margin: 0;
-  padding-bottom: 2px;
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 140%;
+  line-height: 20px;
 }
 
 .card__description p {
   margin: 0;
-  padding-bottom: 13px;
+  padding-bottom: 12px;
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 18.7px;
+  line-height: 20px;
   color: #D8D8D9;
 }
 
@@ -99,7 +101,6 @@
 }
 
 .card__side--front {
-
   background-color: #00437c;
 }
 

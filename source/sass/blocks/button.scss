@@ -2,33 +2,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  //padding-top: 11px;
-  //padding-bottom: 7px;
 
   background-color: #F9FBFD;
   cursor: pointer;
 }
 
-/* .button:hover {
-  opacity: 0.8;
-}
-
-.button:active {
-  opacity: 0.5;
-}
- */
-
 .button__link {
   display: flex;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 150%;
-  color: #011C40;
-  padding-top: 11px;
-  padding-bottom: 10px;
+  min-width: 210px;
+  padding-top: 10px;
+  padding-bottom: 7px;
   padding-right: 46px;
   padding-left: 46px;
-  min-width: 210px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #011C40;
+
   text-decoration: none;
 }
 

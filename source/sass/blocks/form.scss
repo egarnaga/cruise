@@ -20,6 +20,8 @@
   .form {
     //max-width: 290px;
     width: 100%;
+    padding-top: 37px;
+    padding-bottom: 41px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -38,6 +40,7 @@
 @media  screen and (max-width: 767px) {
   .booking__form p {
     line-height: 25px;
+    text-align: center;
   }
 }
 
@@ -107,6 +110,13 @@ input:-ms-input-placeholder {
   padding-top: 4px;
   padding-left: 23px;
 }
+
+@media  screen and (max-width: 767px) {
+  .form__field-check label {
+    padding-top: 0;
+  }
+}
+
 
 .form__field label {
   font-weight: normal;

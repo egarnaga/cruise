@@ -49,7 +49,7 @@
 
 @media  screen and (max-width: 767px) {
   .features {
-    padding-top: 60px;
+    padding-top: 58px;
     padding-bottom: 36px;
   }
 }
@@ -81,6 +81,14 @@
   justify-content: center;
 }
 
+@media  screen and (max-width: 767px) {
+  .features__heading {
+    justify-content: flex-start;
+    padding-left: 32px;
+  }
+}
+
+
 .features__heading h2 {
   margin: 0;
   padding-bottom: 48px;
@@ -101,7 +109,7 @@
 @media  screen and (max-width: 767px) {
   .features__heading h2 {
     padding-left: 14px;
-    padding-bottom: 31px;
+    padding-bottom: 29px;
     font-size: 24px;
     line-height: 36px;
   }
@@ -124,7 +132,7 @@
 @media  screen and (max-width: 767px) {
   .features__list {
     flex-direction: column;
-    align-items: center;
+    //align-items: center;
   }
 }
 
@@ -147,6 +155,7 @@
 
 @media  screen and (max-width: 767px) {
   .list-features__item {
+    min-width: 290px;
     margin-bottom: 30px;
     padding-right: 7px;
   }
@@ -184,6 +193,9 @@
   .list-features__item--ticks {
     margin-left: 0;
     margin-right: 0;
+    padding-top: 2px;
+
+    padding-right: 55px;
   }
 }
 
@@ -224,6 +236,7 @@
     padding-top: 29px;
   }
 }
+
 
 @media  screen and (max-width: 1023px) {
   .list-features__item--ticks .list-features__icon {
@@ -276,7 +289,7 @@
 
 @media  screen and (max-width: 767px) {
   .list-features__item h3 {
-    padding-bottom: 8px;
+    padding-bottom: 9px;
   }
 }
 

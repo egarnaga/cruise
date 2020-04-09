@@ -11,7 +11,7 @@
   .catalog {
     padding-top: 91px;
     padding-bottom: 83px;
-    padding-left: 45px;
+    padding-left: 60px;
     padding-right: 20px;
   }
 }
@@ -43,8 +43,8 @@
 @media  screen and (max-width: 1023px) {
   .catalog__wrapper-heading {
     justify-content: flex-start;
-    padding-bottom: 35px;
-    padding-left: 200px;
+    padding-bottom: 49px;
+    padding-left: 183px;
   }
 }
 
@@ -109,7 +109,8 @@
 
 @media  screen and (max-width: 1023px) {
   .cards__item {
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
 }

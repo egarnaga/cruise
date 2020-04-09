@@ -87,13 +87,14 @@
 
   font-weight: 600;
   font-size: 28px;
-  line-height: 150%;
+  line-height: 42px;
   color: #011C40;
 }
 
 @media  screen and (max-width: 1023px) {
   .features__heading h2 {
     font-size: 26px;
+    line-height: 39px;
   }
 }
 
@@ -102,7 +103,7 @@
     padding-left: 14px;
     padding-bottom: 31px;
     font-size: 24px;
-    line-height: 140%;
+    line-height: 36px;
   }
 }
 
@@ -137,7 +138,8 @@
 
 @media  screen and (max-width: 1023px) {
   .list-features__item  {
-    padding-right: 10px;
+    max-width: 206px;
+    padding-right: 13px;
     padding-left: 19px;
     padding-bottom: 18px;
   }
@@ -213,7 +215,7 @@
 }
 
 .list-features__item--ticks .list-features__icon {
-  padding-top: 35px;
+  padding-top: 39px;
   padding-bottom: 19px;
 }
 
@@ -267,7 +269,7 @@
 
 @media  screen and (max-width: 1023px) {
   .list-features__item h3 {
-    line-height: 140%;
+    line-height: 25px;
   }
 }
 
@@ -282,6 +284,6 @@
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 140%;
+  line-height: 20px;
   color: #011C40;
 }

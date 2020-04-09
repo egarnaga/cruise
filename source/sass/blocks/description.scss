@@ -44,6 +44,7 @@
 
 @media  screen and (max-width: 767px) {
   .description h2 {
+    padding-bottom: 14px;
     font-size: 24px;
     line-height: 34px;
   }
@@ -88,7 +89,7 @@
 
 @media  screen and (max-width: 767px) {
   .description__wrapper-text {
-    padding-top: 60px;
+    padding-top: 58px;
     padding-right: 0;
   }
 }
@@ -131,7 +132,7 @@
   .description__wrapper-img {
     display: flex;
     justify-content: center;
-    padding-top: 31px;
+    padding-top: 33px;
     padding-left: 0;
   }
 }

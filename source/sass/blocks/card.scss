@@ -1,3 +1,10 @@
+@media  screen and (max-width: 1023px) {
+  .card {
+    width: 309px;
+    height: 386px;
+  }
+}
+
 .card__img img {
   min-width: 260px;
   min-height: 386px;
@@ -37,7 +44,7 @@
 
 @media  screen and (max-width: 1023px) {
   .card__main-heading h3 {
-    margin-top: -57px;
+    margin-top: -60px;
     padding-left: 34px;
   }
 }
@@ -88,7 +95,7 @@
 
 @media  screen and (max-width: 1023px) {
   .card__side {
-    max-width: 309px;
+    min-width: 309px;
     min-height: 386px;
   }
 }
@@ -143,3 +150,11 @@
 .card__text {
   min-width: 208px;
 }
+
+/* .card__side--back {
+  position: relative;
+  z-index: 50;
+  visibility: hidden;
+  visibility: visible;
+} */
+

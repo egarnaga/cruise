@@ -23,6 +23,16 @@
   text-decoration: none;
 }
 
+@media  screen and (max-width: 1023px) {
+  .button__link {
+    min-width: 239px;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-right: 61px;
+    padding-left: 61px;
+  }
+}
+
 .button__link:hover {
   opacity: 0.8;
 }

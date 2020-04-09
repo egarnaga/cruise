@@ -61,7 +61,17 @@
   border: none;
 }
 
+/* input::-moz-placeholder {
+  opacity: 1;
+}
 
+input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+} */
 
 @media  screen and (max-width: 767px) {
   .form__field input {

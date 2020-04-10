@@ -11,6 +11,7 @@
 @media screen and (max-width: 767px) {
   .site-list {
     flex-direction: column;
+    padding-top: 15px;
   }
 }
 
@@ -30,6 +31,13 @@
     line-height: 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .site-list__item {
+    padding: 0;
+  }
+}
+
 
 .site-list__link {
   margin-right: 33px;
@@ -64,11 +72,35 @@
     display: flex;
     margin: 0;
     padding: 0;
-    margin-top: 10.2px;
-    margin-bottom: 10.2px;
+    margin-bottom: 22px;
 
     font-size: 18px;
     line-height: 22px;
     color: #011C40;
   }
 }
+
+ @media screen and (max-width: 767px) {
+  .site-list__item--direction {
+    order: 1;
+  }
+}
+
+ @media screen and (max-width: 767px) {
+  .site-list__item--advantage {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-list__item--cruises {
+    order: 3;
+  }
+}
+
+ @media screen and (max-width: 767px) {
+  .site-list__item--contacts {
+    order: 4;
+  }
+}
+

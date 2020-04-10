@@ -4,10 +4,8 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-}
 
-@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .booking {
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/landscape-3-desktop@2x.jpg");
   }
 }
@@ -15,24 +13,20 @@
 @media screen and (max-width: 1023px) {
   .booking {
     background-image: url("../img/landscape-3-tablet@1x.jpg");
-  }
-}
 
-@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .booking {
-    background-image: url("../img/landscape-3-tablet@2x.jpg");
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/landscape-3-tablet@2x.jpg");
+    }
   }
 }
 
 @media screen and (max-width: 767px) {
   .booking {
     background-image: url("../img/landscape-3-mobile@1x.jpg");
-  }
-}
 
-@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .booking {
-    background-image: url("../img/landscape-3-mobile@2x.jpg");
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/landscape-3-mobile@2x.jpg");
+    }
   }
 }
 

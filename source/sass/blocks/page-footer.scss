@@ -1,4 +1,8 @@
 .page-footer {
+  background-color: #011C40;
+}
+
+.page-footer__wrap {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -11,7 +15,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .page-footer {
+  .page-footer__wrap {
     padding-top: 48px;
     padding-bottom: 50px;
     padding-left: 45px;
@@ -20,7 +24,7 @@
 }
 
 @media  screen and (max-width: 767px) {
-  .page-footer {
+  .page-footer__wrap {
     align-items: start;
     flex-direction: column;
     justify-content: flex-start;

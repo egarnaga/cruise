@@ -1,13 +1,15 @@
 .description {
-  display: flex;
-  padding-right: 103px;
-  padding-left: 103px;
-
   background-color: #E5E5E5;;
 }
 
+.description__wrapper {
+  display: flex;
+  padding-right: 103px;
+  padding-left: 103px;
+}
+
 @media  screen and (max-width: 1023px) {
-  .description {
+  .description__wrapper {
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 92px;
@@ -15,7 +17,7 @@
 }
 
 @media  screen and (max-width: 767px) {
-  .description {
+  .description__wrapper {
     flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
@@ -23,7 +25,7 @@
   }
 }
 
-.description h2 {
+.description__wrapper-text h2 {
   margin: 0;
 
   padding-bottom: 22px;
@@ -34,7 +36,7 @@
 }
 
 @media  screen and (max-width: 1023px) {
-  .description h2 {
+  .description__wrapper-text h2 {
     padding-bottom: 16px;
 
     font-size: 26px;
@@ -43,7 +45,7 @@
 }
 
 @media  screen and (max-width: 767px) {
-  .description h2 {
+  .description__wrapper-text h2 {
     padding-bottom: 14px;
     font-size: 24px;
     line-height: 34px;
@@ -51,7 +53,7 @@
 }
 
 
-.description p {
+.description__wrapper-text p {
   margin: 0;
 
   font-weight: normal;
@@ -61,7 +63,7 @@
 }
 
 @media  screen and (max-width: 1023px) {
-  .description p {
+  .description__wrapper-text p {
     font-size: 16px;
     line-height: 24px;
   }

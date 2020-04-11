@@ -137,6 +137,13 @@
   box-shadow: 0px 4px 35px rgba(1, 28, 64, 0.15);
 }
 
+@media  screen and (max-width: 1023px) {
+  .card__side--back {
+    padding-top: 70px;
+  }
+}
+
+
 .button__wrapper {
   align-self: flex-end;
   min-width: 210px;
@@ -157,9 +164,15 @@
   min-width: 208px;
 }
 
-/* .card__side--back {
+@media  screen and (max-width: 1023px) {
+  .card__text {
+    max-width: 237px;
+  }
+}
+
+.card__side--back {
   position: relative;
   z-index: 50;
   visibility: hidden;
   visibility: visible;
-} */
+}

@@ -94,6 +94,13 @@
   color: #D8D8D9;
 }
 
+@media  screen and (max-width: 1023px) {
+  .card__description p {
+    min-width: 237px;
+  }
+}
+
+
 .card__side {
   max-width: 260px;
   min-height: 386px;
@@ -143,7 +150,6 @@
   }
 }
 
-
 .button__wrapper {
   align-self: flex-end;
   min-width: 210px;
@@ -170,9 +176,10 @@
   }
 }
 
-.card__side--back {
+/* .card__side--back {
   position: relative;
   z-index: 50;
   visibility: hidden;
   visibility: visible;
-}
+} */
+

@@ -54,6 +54,7 @@
 
 
 .description__wrapper-text p {
+  max-width: 515px;
   margin: 0;
 
   font-weight: normal;
@@ -108,10 +109,19 @@
   }
 }
 
+@media  screen and (max-width: 1023px) {
+  .description__wrapper-img img {
+    width: 324px;
+    height: 264px;
+  }
+}
+
+
 @media  screen and (max-width: 767px) {
   .description__wrapper-img img {
+    width: 290px;
+    height: 186px;
     flex-shrink: 1;
-    width: 100%;
   }
 }
 

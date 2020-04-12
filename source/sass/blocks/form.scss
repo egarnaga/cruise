@@ -67,11 +67,9 @@
 /* input::-moz-placeholder {
   opacity: 1;
 }
-
 input::-webkit-input-placeholder {
   opacity: 1;
 }
-
 input:-ms-input-placeholder {
   opacity: 1;
 } */
@@ -116,7 +114,6 @@ input:-ms-input-placeholder {
     padding-top: 0;
   }
 }
-
 
 .form__field label {
   font-weight: normal;
@@ -181,8 +178,6 @@ input:-ms-input-placeholder {
   cursor: pointer;
 }
 
-
-
 .form__button:hover {
   opacity: 0.8;
 }
@@ -199,4 +194,3 @@ input:-ms-input-placeholder {
     padding-right: 53px;
   }
 }
-

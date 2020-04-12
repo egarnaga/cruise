@@ -80,6 +80,12 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .booking__wrapper {
+    padding-bottom: 48px;
+  }
+}
+
 .booking__wrapper-text {
   display: flex;
   flex-direction: column;

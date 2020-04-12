@@ -94,11 +94,10 @@ input:-ms-input-placeholder {
 .form__field-check {
   position: relative;
   display: flex;
-  min-height: 40px;
+  //min-height: 40px;
 }
 
 .form__field-check input {
-
   width: 18px;
   height: 18px;
   margin-bottom: 0;
@@ -109,9 +108,11 @@ input:-ms-input-placeholder {
   padding-left: 23px;
 }
 
+
 @media  screen and (max-width: 767px) {
   .form__field-check label {
     padding-top: 0;
+    padding-left: 30px;
   }
 }
 
@@ -120,6 +121,12 @@ input:-ms-input-placeholder {
   font-size: 10px;
   line-height: 13px;
   color: #F9FBFD;
+}
+
+@media  screen and (max-width: 767px) {
+  .form__field label {
+    line-height: 12px;
+  }
 }
 
 .form__checkbox + label::before {
@@ -132,6 +139,32 @@ input:-ms-input-placeholder {
   height: 18px;
 
   background-color: #F9FBFD;
+  cursor: pointer;
+}
+
+.form__checkbox:hover + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 18px;
+  height: 18px;
+
+  background-color: rgba(249, 251, 253, 0.8);;
+  cursor: pointer;
+}
+
+@media  screen and (max-width: 767px) {
+  .form__checkbox + label::before {
+    width: 20px;
+    height: 20px;
+  }
+
+  .form__checkbox:hover + label::before {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .form__checkbox:checked + label::after {
@@ -148,7 +181,16 @@ input:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 12px 8px;
+
+  cursor: pointer;
   //background-color: red;
+}
+
+@media  screen and (max-width: 767px) {
+  .form__checkbox:checked + label::after {
+    top: 6px;
+    left: 5px;
+  }
 }
 
 .form__checkbox:checked + label::before {
@@ -162,7 +204,7 @@ input:-ms-input-placeholder {
 .form__button {
   margin: 0;
   padding: 0;
-  margin-top: 8px;
+  margin-top: 30px;
   padding-top: 12px;
   padding-bottom: 10px;
   padding-left: 90px;
@@ -190,6 +232,7 @@ input:-ms-input-placeholder {
   .form__button {
     //max-width: 230px;
     width: 100%;
+    margin-top: 26px;
     padding-left: 53px;
     padding-right: 53px;
   }

@@ -9,12 +9,12 @@
   box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
 }
 
-@media  screen and (max-width: 1023px) {
+/* @media  screen and (max-width: 1023px) {
   .form {
-    //min-width: 403px;
-    //width: 100%;
+    min-width: 403px;
+    width: 100%;
   }
-}
+} */
 
 @media  screen and (max-width: 767px) {
   .form {
@@ -198,7 +198,7 @@ input:-ms-input-placeholder {
 }
 
 .form__checkbox:disabled + label {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .form__button {

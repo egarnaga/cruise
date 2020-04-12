@@ -109,4 +109,5 @@
   InputMask.prototype.isElement = function (element) {
     return element instanceof Element || element instanceof HTMLDocument;
   };
+
 })();

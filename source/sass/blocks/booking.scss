@@ -30,7 +30,7 @@
   }
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -63,7 +63,7 @@
   padding-right: 161px;
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking__wrapper {
     justify-content: center;
     flex-direction: column;
@@ -99,7 +99,7 @@
   }
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking__wrapper-text {
     align-items: center;
     padding-top: 0;
@@ -115,7 +115,7 @@
 }
 
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking__wrapper {
     padding-top: 0;
   }
@@ -131,7 +131,7 @@
   color: #011C40;
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking__heading h2 {
     padding-bottom: 25px;
     font-size: 34px;
@@ -163,8 +163,9 @@
 }
 
 .booking__description p {
+  max-width: 352px;
   margin: 0;
-  padding-right: 152px;
+
 
   font-weight: normal;
   font-size: 18px;
@@ -172,7 +173,7 @@
   color: #011C40;
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking__description p {
     padding-bottom: 60px;
     padding-right: 0;
@@ -197,7 +198,7 @@
   padding-left: 60px;
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1210px) {
   .booking__wrapper-form {
     padding-left: 0;
     padding-right: 0;

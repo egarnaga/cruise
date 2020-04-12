@@ -670,20 +670,24 @@
               <div class="booking__wrapper-form">
                 <form class="booking__form form" action="https://echo.htmlacademy.ru" method="POST">
                   <p>Оставьте заявку и&nbsp;мы&nbsp;свяжемся с вами в&nbsp;ближайшее время</p>
+
                   <div class="form__field">
                     <label class="visually-hidden" for="name">Введите Ваше имя</label>
-                    <input id="name" type="text" name="name" value="" placeholder="Валерия" required>
+                    <input id="name" type="text" name="name" placeholder="Валерия" required>
                   </div>
+
                   <div class="form__field">
                     <label class="visually-hidden" for="phone">Введите Ваш номер телефона</label>
-                    <input id="phone" type="tel" name="phone" value="" placeholder="89236889975" required>
+                    <input id="phone" type="tel" name="phone" placeholder="+7 (999) 999-99-99" data-mask="+7 (___) ___-__-__" required>
                   </div>
+
                   <div class="form__field">
                     <label class="visually-hidden" for="e-mail">Введите Ваш e-mail</label>
                     <input id="e-mail" type="email" name="e-mail" value="" placeholder="grishaewa.lera@gmail.com" required>
                   </div>
+
                   <div class="form__field form__field-check">
-                    <input class="visually-hidden form__checkbox" id="check" type="checkbox" name="check" value="" checked>
+                    <input class="visually-hidden form__checkbox" id="check" type="checkbox" name="check" value="true" checked>
                     <label for="check">Я согласен на обработку моих персональных данных</label>
                   </div>
                   <button class="form__button" type="submit" aria-label="Оставить заявку">Оставить заявку</button>
@@ -795,6 +799,7 @@
       </div>
     </footer>
 
+    <script src="js/vendor.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

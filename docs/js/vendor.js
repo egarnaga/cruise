@@ -1,6 +1,9 @@
 'use strict';
 
 (function () {
+
+  // Picturefill
+
   (function(window) {
     /*jshint eqnull:true */
     var ua = navigator.userAgent;

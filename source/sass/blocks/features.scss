@@ -123,12 +123,6 @@
   list-style: none;
 }
 
-@media screen and (min-width: 1367px) {
-  .features__list {
-    //justify-content: space-around;
-  }
-}
-
 @media  screen and (max-width: 767px) {
   .features__list {
     flex-direction: column;

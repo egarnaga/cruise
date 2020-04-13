@@ -34,6 +34,21 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .page-footer__wrap {
+    align-items: center;
+    padding-left: 40px;
+  }
+}
+
+@media  screen and (max-width: 400px) {
+  .page-footer__wrap {
+    align-items: start;
+    padding-left: 15px;
+  }
+}
+
+
 .page-footer__wrapper {
   display: flex;
   flex-wrap: wrap;

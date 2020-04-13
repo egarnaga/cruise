@@ -6,6 +6,19 @@
   list-style: none;
 }
 
+@media screen and (max-width: 767px) {
+  .social__list {
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .social__list {
+    margin-left: 0;
+  }
+}
+
+
 .social__item {
   line-height: 0;
 }

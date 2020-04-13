@@ -63,6 +63,19 @@
   overflow: hidden;
 }
 
+@media  screen and (max-width: 1289px) {
+  .contacts__map {
+    margin-right: 30px;
+  }
+}
+
+@media  screen and (max-width: 1023px) {
+  .contacts__map {
+    margin-right: 0;
+  }
+}
+
+
 
 @media  screen and (max-width: 767px) {
   .contacts__map {

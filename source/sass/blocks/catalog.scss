@@ -25,13 +25,6 @@
   }
 }
 
-/* @media  screen and (min-width: 1300px) {
-  .catalog {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-} */
-
 .catalog__wrapper-heading {
   display: flex;
   justify-content: center;
@@ -76,6 +69,7 @@
 }
 
 .catalog__list {
+  min-width: 1160px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -84,6 +78,13 @@
 
   list-style: none;
 }
+
+@media  screen and (max-width: 1365px) {
+  .catalog__list {
+    min-width: 100%;
+  }
+}
+
 
 @media  screen and (max-width: 1023px) {
   .catalog__list {

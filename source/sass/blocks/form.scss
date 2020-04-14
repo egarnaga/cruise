@@ -123,6 +123,11 @@ input:-ms-input-placeholder {
   color: #F9FBFD;
 }
 
+.form__field label:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 @media  screen and (max-width: 767px) {
   .form__field label {
     line-height: 12px;

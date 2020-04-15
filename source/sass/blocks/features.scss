@@ -254,7 +254,7 @@
   margin-bottom: 40px;
   padding-right: 30px;
   padding-left: 30px;
-  padding-bottom: 27px;
+  padding-bottom: 23px;
 
   background-color: #F9FBFD;
 }
@@ -330,18 +330,19 @@
 
 .list-features__item--ship .list-features__icon {
   padding-top: 30px;
-  padding-bottom: 13px;
+  padding-bottom: 13px; //13
 }
 
 @media  screen and (max-width: 1023px) {
   .list-features__item--ship .list-features__icon {
     padding-top: 25px;
+    padding-bottom: 15px;
   }
 }
 
 .list-features__item--ticks .list-features__icon {
   padding-top: 35px;
-  padding-bottom: 19px;
+  padding-bottom: 19px; // 19
 }
 
 @media  screen and (max-width: 1023px) {
@@ -359,7 +360,7 @@
 
 .list-features__item--boat .list-features__icon {
   padding-top: 35px;
-  padding-bottom: 23px;
+  padding-bottom: 23px; //23
 }
 
 @media  screen and (max-width: 1023px) {
@@ -385,7 +386,7 @@
 
 .list-features__item h3 {
   margin: 0;
-  padding-bottom: 6px;
+  padding-bottom: 8px;
 
   font-weight: 500;
   font-size: 18px;

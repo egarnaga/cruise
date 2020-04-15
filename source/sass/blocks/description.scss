@@ -70,6 +70,20 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .description__wrapper-text p {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media  screen and (max-width: 575px) {
+  .description__wrapper-text p {
+    text-align: left;
+    margin: 0;
+  }
+}
+
 .description__wrapper-text {
   padding-top: 178px;
   padding-right: 40px;
@@ -105,9 +119,18 @@
 
 @media  screen and (max-width: 767px) {
   .description__wrapper-text h2 {
-    padding-right: 70px;
+    padding-right: 0;
+    text-align: center;
   }
 }
+
+@media  screen and (max-width: 355px) {
+  .description__wrapper-text h2 {
+    padding-right: 70px;
+    text-align: left;
+  }
+}
+
 
 @media  screen and (max-width: 1023px) {
   .description__wrapper-img img {

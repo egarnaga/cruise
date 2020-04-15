@@ -251,11 +251,17 @@
 
 .contacts__phone a:hover {
   opacity: 0.8;
-  border-bottom: 1px solid rgba(1, 28, 64, 0.8);
 }
 
 .contacts__phone a:active {
   opacity: 0.5;
+}
+
+.contacts__phone span:hover {
+  border-bottom: 1px solid rgba(1, 28, 64, 0.8);
+}
+
+.contacts__phone span:active {
   border-bottom: 1px solid rgba(1, 28, 64, 0.5);
 }
 

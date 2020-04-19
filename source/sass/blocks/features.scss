@@ -2,7 +2,7 @@
   min-height: 562px;
   padding-top: 112px;
   padding-bottom: 79px;
-  padding-right: 0;  //63
+  padding-right: 0;
   padding-left: 103px;
 
   background-color: #E3ECF6;
@@ -68,13 +68,13 @@
 
 @media  screen and (max-width: 1023px) {
   .features {
-    padding-right: 45px;  //новое
+    padding-right: 45px;
   }
 }
 
 @media  screen and (max-width: 768px) {
   .features {
-    padding-right: 15px;  //новое
+    padding-right: 15px;
   }
 }
 
@@ -93,8 +93,6 @@
 }
 
 .features__heading {
-  //display: flex;
-  //justify-content: center;
   padding-left: 466px;
 }
 
@@ -127,15 +125,15 @@
 
 @media  screen and (max-width: 1023px) {
   .features__heading {
-    padding-left: 0; // новое
-    text-align: center; // новое
+    padding-left: 0;
+    text-align: center;
   }
 }
 
 @media  screen and (max-width: 768px) {
   .features__heading {
-    padding-left: 233px; // новое
-    text-align: left; // новое
+    padding-left: 233px;
+    text-align: left;
   }
 }
 
@@ -148,15 +146,14 @@
 
 @media  screen and (max-width: 767px) {
   .features__heading {
-    //justify-content: flex-start;
     padding-left: 0;
-    text-align: center;  // остановилась тут
+    text-align: center;
   }
 }
 
 @media  screen and (max-width: 373px) {
   .features__heading {
-    align-items: flex-start; // новое
+    align-items: flex-start;
     padding-left: 32px;
     text-align: left;
   }
@@ -219,32 +216,31 @@
 
 @media  screen and (max-width: 1023px) {
   .features__list {
-    justify-content: space-between; // новое
+    justify-content: space-between;
   }
 }
 
 @media  screen and (max-width: 768px) {
   .features__list {
-    justify-content: flex-start; // новое
+    justify-content: flex-start;
   }
 }
 
 @media  screen and (max-width: 767px) {
   .features__list {
     flex-direction: column;
-    //align-items: center;
   }
 }
 
 @media  screen and (max-width: 767px) {
   .features__list {
-    align-items: center; // новое
+    align-items: center;
   }
 }
 
 @media  screen and (max-width: 373px) {
   .features__list {
-    align-items: flex-start; // новое
+    align-items: flex-start;
   }
 }
 
@@ -273,7 +269,7 @@
 
 @media  screen and (max-width: 1365.9px) {
   .list-features__item  {
-    max-width: 300px; // новое
+    max-width: 300px;
     margin-right: 0;
   }
 }
@@ -291,15 +287,15 @@
 
 @media  screen and (max-width: 1023px) {
   .list-features__item  {
-    margin-right: 0; // новое
-    margin-bottom: 0; // новое
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
 
 @media  screen and (max-width: 768px) {
   .list-features__item  {
-    margin-right: 30px; // новое
-    margin-bottom: 30px; // новое
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -307,7 +303,7 @@
   .list-features__item {
     min-width: 290px;
     margin-bottom: 30px;
-    margin-right: 0; //
+    margin-right: 0;
     padding-right: 7px;
   }
 }
@@ -330,7 +326,7 @@
 
 .list-features__item--ship .list-features__icon {
   padding-top: 30px;
-  padding-bottom: 13px; //13
+  padding-bottom: 13px;
 }
 
 @media  screen and (max-width: 1023px) {
@@ -342,7 +338,7 @@
 
 .list-features__item--ticks .list-features__icon {
   padding-top: 35px;
-  padding-bottom: 19px; // 19
+  padding-bottom: 19px;
 }
 
 @media  screen and (max-width: 1023px) {
@@ -360,7 +356,7 @@
 
 .list-features__item--boat .list-features__icon {
   padding-top: 35px;
-  padding-bottom: 23px; //23
+  padding-bottom: 23px;
 }
 
 @media  screen and (max-width: 1023px) {

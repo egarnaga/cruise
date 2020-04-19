@@ -47,13 +47,13 @@
   .catalog__wrapper-heading {
     justify-content: flex-start;
     padding-bottom: 49px;
-    padding-left: 0;  // 183
+    padding-left: 0;
   }
 }
 
 @media  screen and (max-width: 768px) {
   .catalog__wrapper-heading {
-    padding-left: 183px;  // 183
+    padding-left: 183px;
   }
 }
 
@@ -127,22 +127,18 @@
 
 @media  screen and (max-width: 1023px) {
   .catalog__list {
-    //justify-content: center;
     justify-content: space-around;
   }
 }
 
 @media  screen and (max-width: 768px) {
   .catalog__list {
-    //justify-content: center;
     justify-content: flex-start;
   }
 }
 
 @media  screen and (max-width: 767px) {
   .catalog__list {
-    //flex-direction: column;
-    //align-items: center;
     justify-content: space-around;
   }
 }

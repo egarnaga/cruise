@@ -135,7 +135,6 @@
 
 .card__side.card__side--back {
   display: flex;
-  //flex-direction: column; //тут
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -161,7 +160,6 @@
 }
 
 .card__wrapper-button {
-  //align-self: flex-end;
   display: flex;
   min-width: 210px;
 }
@@ -174,7 +172,6 @@
   position: relative;
   z-index: 50;
   visibility: hidden;
-  //visibility: visible;
 }
 
 .card:hover .card__side--back {
@@ -182,11 +179,7 @@
 }
 
 .card__text {
-  //height:208px;
   min-width: 208px;
-  //display: flex;
-  //flex-direction: column;
-  //min-height: 208px;
 }
 
 @media  screen and (max-width: 1023px) {

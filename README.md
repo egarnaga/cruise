@@ -2,7 +2,7 @@
 
 ## Описание проекта
 
-[Демо](https://egarnaga.github.io/cruise-project/) | [Техническое задание](specification.md)
+[Демо](https://egarnaga.github.io/cruise-project/docs/) | [Техническое задание](specification.md)
 
 * **Стандарты вёрстки:** HTML5, CSS3, прогрессивное улучшение.
 * **Сетка:** определена в макете.
